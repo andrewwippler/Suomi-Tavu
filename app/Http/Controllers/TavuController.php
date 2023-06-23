@@ -11,10 +11,10 @@ class TavuController extends Controller
 
     public function tavuta(Request $request): View
     {
-        $lauset = $request->textarea;
+        $input = $request->all();
         // Store the user...
-        $uusi = Tavu::tavuta($lauset);
-        // error_log(var_dump($uusi));
+        $uusi = Tavu::tavuta($input['textarea']);
+        // error_log(var_dump($input));
         $valmis = Tavu::rakkenta($uusi);
 
         return view('tavu', ['lauset' => $valmis]);
