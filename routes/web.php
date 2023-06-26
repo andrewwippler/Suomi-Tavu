@@ -15,7 +15,7 @@ use App\Http\Controllers\TavuController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('tavu');
 });
 
 Route::post('/tavu', [TavuController::class, 'tavuta']);
