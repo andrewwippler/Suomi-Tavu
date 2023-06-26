@@ -42,7 +42,7 @@
     </div>
   </header>
   <main>
-    <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <!-- Your content -->
 @isset($lauset)
       <div class="top-full z-10 mt-3 col-span-full overflow-hidden rounded-xl bg-white shadow-lg ring-1 ring-gray-900/5">
