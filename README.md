@@ -3,7 +3,7 @@
 
 [![build](https://github.com/andrewwippler/Suomi-Tavu/actions/workflows/build.yaml/badge.svg)](https://github.com/andrewwippler/Suomi-Tavu/actions/workflows/build.yaml)
 
-Based off of the work by [Duukkis](http://www.palomaki.info/apps/haiku/). Working demo: https://tavu.wplr.rocks/
+Based off of the work by [Duukkis](http://www.palomaki.info/apps/haiku/). Working demo: [https://tavu.wplr.rocks/](https://tavu.wplr.rocks/)
 
 ## Quickstart
 
