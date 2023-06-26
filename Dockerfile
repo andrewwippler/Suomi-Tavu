@@ -14,6 +14,6 @@ COPY . /var/www/html
 RUN php artisan config:cache && \
     php artisan route:cache && \
     php artisan view:cache && \
-    chmod 664 -R /var/www/html/storage/ && \
+    chmod 770 -R /var/www/html/storage/ && \
     chown -R www-data:www-data /var/www/ && \
     a2enmod rewrite
