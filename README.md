@@ -1,7 +1,9 @@
 
 # Suomi Tavu
 
-Based off of the work by [Duukkis](http://www.palomaki.info/apps/haiku/).
+[![build](https://github.com/andrewwippler/Suomi-Tavu/actions/workflows/build.yaml/badge.svg)](https://github.com/andrewwippler/Suomi-Tavu/actions/workflows/build.yaml)
+
+Based off of the work by [Duukkis](http://www.palomaki.info/apps/haiku/). Working demo: https://tavu.wplr.rocks/
 
 ## Quickstart
 
@@ -9,11 +11,11 @@ Based off of the work by [Duukkis](http://www.palomaki.info/apps/haiku/).
 - `cp .env.example .env`
 - `php artisan key:generate`
 - `php artisan serve`
-- POST text to `/tavu` as a form item with the name `textarea`
+- POST text to `/api/tavu` as a form item with the name `textarea`
 
 ## See Also
 
-- tests/Feature/TavuTest.php
+- tests/Feature/TavuJsonTest.php
 
 ## License
 
